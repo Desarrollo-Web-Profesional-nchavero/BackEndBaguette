@@ -10,7 +10,7 @@ await initBaseDeDatos()
  * Ejemplo de creación, actualización y consulta de pedidos utilizando Mongoose.
  */
 const pedido = new Pedido({
-    nombre: 'Francisco Rodriguez Gomez',
+    nombre: 'Noé Chavero Martínez',
     telefono: '3121989248',
     fecha_solicitud: '07/02/2026',
     fecha_envio: '09/02/2026',
@@ -25,7 +25,7 @@ const createdPedido= await pedido.save()
 
 // Actualizar el nombre del cliente para el pedido creado
 await Pedido.findByIdAndUpdate(createdPedido._id, {
-  $set: { nombre: 'Francisco Rodriguez Gomez' },
+  $set: { nombre: 'Noé Chavero Martínez' },
 })
 
 // Consultar y mostrar todos los pedidos en la base de datos
