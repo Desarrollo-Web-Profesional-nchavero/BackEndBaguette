@@ -1,5 +1,6 @@
 Corroborar JWT en https://www.jwt.io
-<img width="1806" height="867" alt="image" src="https://github.com/user-attachments/assets/d594f53e-77c2-4efd-93c5-16b8a8e68bf9" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/41487f98-3747-47a2-9a89-b3fc5bf8a9db" />
+
 
 
 Implementación de JWT en el backend
